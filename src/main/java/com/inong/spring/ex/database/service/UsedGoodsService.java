@@ -6,9 +6,8 @@ import org.springframework.stereotype.Service;
 // 데이터 가공
 // 그외 복잡한 기능 수행
 
-@Service
-public class UsedGoodsService {
+
+public class UsedGoodsService {}
 
 	//중고 게시글 정보 모두 얻어오기
-	public getUsedGoodsList()
-}
+
