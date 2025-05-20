@@ -10,5 +10,7 @@ import org.springframework.stereotype.Service;
 public class UsedGoodsService {
 
 	//중고 게시글 정보 모두 얻어오기
-	public getUsedGoodsList()
+	public getUsedGoodsList() {
+		
+	}
 }
