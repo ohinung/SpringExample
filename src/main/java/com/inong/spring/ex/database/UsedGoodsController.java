@@ -11,6 +11,7 @@ public class UsedGoodsController {
 	private UsedGoodsService usedGoodsService;
 	
 	// 중고 게시글 모든 정보를 response에 담는 페이지
+<<<<<<< HEAD
 	@RequestMapping("/db/usedgoods/list")
 	@ResponseBody
 	public List<UsedGoods> usedGoodsList() {
@@ -20,4 +21,8 @@ public class UsedGoodsController {
 		
 		return usedGoodsList;
 	}
+=======
+
+	
+>>>>>>> 5bb5f85565180ea463a041f7c85186dda9f63cf8
 }

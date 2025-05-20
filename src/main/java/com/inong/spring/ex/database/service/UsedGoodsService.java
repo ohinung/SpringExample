@@ -11,6 +11,7 @@ import com.inong.spring.ex.database.repository.UsedGoodsRepository;
 // 데이터 가공
 // 그외 복잡한 기능 수행
 
+<<<<<<< HEAD
 @Service
 public class UsedGoodsService {
 	
@@ -30,3 +31,10 @@ public class UsedGoodsService {
 		return usedGoodsList;
 	}
 }
+=======
+
+public class UsedGoodsService {}
+
+	//중고 게시글 정보 모두 얻어오기
+
+>>>>>>> 5bb5f85565180ea463a041f7c85186dda9f63cf8
