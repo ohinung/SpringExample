@@ -1,8 +1,13 @@
 package com.inong.spring.ex.database;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.inong.spring.ex.database.domain.UsedGoods;
 import com.inong.spring.ex.database.service.UsedGoodsService;
 
 @Controller
@@ -11,7 +16,6 @@ public class UsedGoodsController {
 	private UsedGoodsService usedGoodsService;
 	
 	// 중고 게시글 모든 정보를 response에 담는 페이지
-<<<<<<< HEAD
 	@RequestMapping("/db/usedgoods/list")
 	@ResponseBody
 	public List<UsedGoods> usedGoodsList() {
@@ -21,8 +25,4 @@ public class UsedGoodsController {
 		
 		return usedGoodsList;
 	}
-=======
-
-	
->>>>>>> 5bb5f85565180ea463a041f7c85186dda9f63cf8
 }
