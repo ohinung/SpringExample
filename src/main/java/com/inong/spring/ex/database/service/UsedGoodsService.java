@@ -2,6 +2,7 @@ package com.inong.spring.ex.database.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.inong.spring.ex.database.domain.UsedGoods;
@@ -11,7 +12,7 @@ import com.inong.spring.ex.database.repository.UsedGoodsRepository;
 // 데이터 가공
 // 그외 복잡한 기능 수행
 
-<<<<<<< HEAD
+
 @Service
 public class UsedGoodsService {
 	
@@ -19,7 +20,7 @@ public class UsedGoodsService {
 	//객체 생성을 Spring Framework에서 직접 관리 
 	//객체 관리를 프레임워크 내에서 알아서 하게끔 하겠다. 
 
-	@AutoWired // 해당 변수의 객체 생성을 하지 않아도 해당하는 변수에 객체를 주입해준다.
+	@Autowired // 해당 변수의 객체 생성을 하지 않아도 해당하는 변수에 객체를 주입해준다.
 	private UsedGoodsRepository usedGoodsRepository;
 
 	//중고 게시글 정보 모두 얻어오기
@@ -31,10 +32,4 @@ public class UsedGoodsService {
 		return usedGoodsList;
 	}
 }
-=======
 
-public class UsedGoodsService {}
-
-	//중고 게시글 정보 모두 얻어오기
-
->>>>>>> 5bb5f85565180ea463a041f7c85186dda9f63cf8

@@ -5,20 +5,21 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
  <!-- 특정 repository interface와 연결 설정 -->
- <mapper namespace = "com.inong.spring.ex.database.repository.UsedGoodsRepository"></mapper>
+ <mapper namespace = "com.inong.spring.ex.database.repository.UsedGoodsRepository">
  
  	<!-- 연결된 repository의 특정 메소드에 대한 구현(query) -->
  	<select id = "selectUsedGoodsList"
  		resultType = "com.inong.spring.ex.database.domain.UsedGoods"> 
  		SELECT
- 		`id`
- 		, `sellerId`
- 		, `price`
-		, `description`
-		, `image`
-		, `createdAt` 
-		, `updatedAt`
- 		,
+	 		`id`
+	 		, `sellerId`
+	 		, `price`
+			, `description`
+			, `image`
+			, `createdAt` 
+			, `updatedAt`
+	 		,
  		 FROM 
- 		 `used_goods`
+ 		 	`used_goods`
  	</select>
+ 	</mapper>
